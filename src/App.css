@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 100%);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 7rem;
+  background-color: gainsboro;
+  box-shadow: rgba(0, 0, 0, 0.104) 0px 5px
+}
+
+.bolaCor {
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  border: rgba(0, 0, 0, 0.251) solid 4px;
+  margin: 15px; 
+  display: flex;
+  justify-content: center;
+}.bolaCor:hover {
+  cursor: pointer;
+}
+
+#bolaBranco {
+  background-color: white;
+  color: transparent;
+} #bolaBranco:hover {
+  padding: 5px;
+  transition: 100ms;
+  background-color: rgba(255, 255, 255, 0.952);
+  box-shadow: rgba(0, 0, 0, 0.237) 0px 5px;
+  border: 4px solid rgba(64, 224, 208, 0.83);
+}
+
+#bolaPreto {
+  background-color: black;
+  color: transparent;
+} #bolaPreto:hover {
+  padding: 5px;
+  transition: 100ms;
+  background-color: rgba(0, 0, 0, 0.932);
+  box-shadow: rgba(0, 0, 0, 0.237) 0px 5px;
+  border: 4px solid rgba(64, 224, 208, 0.83);
+}
+
+#bolaVermelho {
+  background-color: rgb(242, 0, 0) ;
+  color: transparent;
+} #bolaVermelho:hover {
+  padding: 5px;
+  transition: 100ms;
+  background-color: rgba(242, 0, 0, 0.934);
+  box-shadow: rgba(0, 0, 0, 0.237) 0px 5px;
+  border: 4px solid rgba(64, 224, 208, 0.83);
+}
+
+#bolaRoxo {
+  background-color: purple;
+  color: transparent;
+} #bolaRoxo:hover {
+  padding: 5px;
+  transition: 100ms;
+  background-color: rgba(128, 0, 128, 0.911);
+  box-shadow: rgba(0, 0, 0, 0.237) 0px 5px;
+  border: 4px solid rgba(64, 224, 208, 0.83);
+}
+
+#bolaVerde {
+  background-color: #21cf1b;
+  color: transparent;
+} #bolaVerde:hover {
+  padding: 5px;
+  transition: 100ms;
+  background-color: #21cf1bef;
+  box-shadow: rgba(0, 0, 0, 0.237) 0px 5px;
+  border: 4px solid rgba(64, 224, 208, 0.83);
+}
+
+#bolaAmarelo {
+  background-color: #fff200;
+  color: transparent;
+} #bolaAmarelo:hover {
+  padding: 5px;
+  transition: 100ms;
+  background-color: #fff200;
+  box-shadow: rgba(0, 0, 0, 0.237) 0px 5px;
+  border: 4px solid rgba(64, 224, 208, 0.83);
+}
+
+@media (max-width: 550px) {
+
+  #navStyle {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    width: 70%;
+    height: 100%;
+  }
+
+  .bolaCor {
+
+    margin: auto;
+  }
+
+}
